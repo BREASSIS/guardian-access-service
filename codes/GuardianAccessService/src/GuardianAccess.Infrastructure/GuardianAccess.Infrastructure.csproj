@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GuardianAccess.CrossCutting\GuardianAccess.CrossCutting.csproj" />
+    <ProjectReference Include="..\GuardianAccess.Domain\GuardianAccess.Domain.csproj" />
+    <ProjectReference Include="..\GuardianAccess.Shared\GuardianAccess.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
